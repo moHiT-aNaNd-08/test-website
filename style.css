@@ -1,0 +1,23 @@
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.check-box,
+.label,
+.multiple-option,
+.textarea {
+	padding: 10px;
+	background-color: cadetblue;
+}
+
+.textarea {
+	width: 40%;
+}
+.textarea textarea {
+	width: 100%;
+	padding: 0;
+}
+.check-box,
+.multiple-option {
+	padding-top: 35px;
+}
